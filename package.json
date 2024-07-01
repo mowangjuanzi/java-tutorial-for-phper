@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev java-tutorial",
+    "docs:build": "vitepress build java-tutorial",
+    "docs:preview": "vitepress preview java-tutorial"
+  }
+}
