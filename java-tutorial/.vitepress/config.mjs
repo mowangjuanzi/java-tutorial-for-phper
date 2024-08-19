@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "为PHPer编写的JAVA教程",
-  description: "为PHPer编写的JAVA教程",
+  title: "JAVA教程",
+  description: "专为PHPer编写",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

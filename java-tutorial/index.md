@@ -3,9 +3,8 @@
 layout: home
 
 hero:
-  name: "为PHPer编写的JAVA教程"
-  text: "为PHPer编写的JAVA教程"
-  tagline: My great project tagline
+  name: "JAVA教程"
+  text: "专为PHPer编写"
   actions:
     - theme: brand
       text: Markdown Examples
