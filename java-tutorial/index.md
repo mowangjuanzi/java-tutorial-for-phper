@@ -3,15 +3,12 @@
 layout: home
 
 hero:
-  name: "JAVA教程"
-  text: "专为PHPer编写"
+  name: "JAVA 教程"
+  text: "专为 PHPer 编写"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: JAVA 教程
+      link: /intro
 
 features:
   - title: Feature A

@@ -2,22 +2,26 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "JAVA教程",
-  description: "专为PHPer编写",
+  title: "JAVA 教程",
+  description: "专为 PHPer 编写",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '入门', link: '/intro' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
+        text: '入门',
+        link: "/intro"
+      },
+      {
+        text: "安装",
+        link: "/install"
+      },
+      {
+        text: "语言",
+        link: "/language"
       }
     ],
 
