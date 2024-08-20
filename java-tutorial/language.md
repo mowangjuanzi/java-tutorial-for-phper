@@ -33,3 +33,24 @@ outline: deep
  * 这就是文档注释
  */
 ```
+
+## 数据类型
+
+JAVA 存在以下八种数据类型：
+
+* byte
+* short
+* int
+* long
+* float
+* double
+* char
+* boolean
+
+引用类型有：
+
+* 强引用
+* 软引用
+* 弱引用
+* 虚引用
+
