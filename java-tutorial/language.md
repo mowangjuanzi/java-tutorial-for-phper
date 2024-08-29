@@ -131,3 +131,73 @@ String str1 = String.valueOf(int num);
 
 ## 注解
 
+作用：
+
+- 编写文档
+- 代码分析
+- 代码检查
+
+可使用的位置：
+- 类
+- 方法
+- 字段
+- 参数
+
+内置注解
+- `Override`：表示子类重写了父类的方法
+- `Deprecated`：表示已经弃用，
+- `SuppressWarnings`：压制警告，对某些警告不再报告
+
+## 泛型
+
+最简单的理解就是类型参数化。
+
+泛型分为三种：泛型类、泛型方法、泛型接口。
+
+- 泛型类
+
+```java
+public class Start <T>{
+
+    private T key;
+
+    public void setKey(T key)
+    {
+        this.key = key;
+    }
+
+    public T getKey() {
+        return key;
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Number num = 10;
+
+        Start<Number> key = new Start<>();
+        key.setKey(num);
+
+        System.out.println(key.getKey());
+    }
+}
+```
+
+- 泛型方法
+
+可以用到传入类型和返回类型
+
+```java
+public <E> boolean name(E e1, E e2) {
+   return e1.equals(e2);
+}
+```
+
+泛型的边界
+
+## 反射
+
+就是当不知道要操作的对象是什么的时候，可以在运行时获取其完整构造，并调用相关的方法
+
